@@ -1,0 +1,279 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	width:1240px;
+	margin:0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex_container{
+	display:flex;
+	flex-wrap:wrap;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+.flex-item1{
+	width:8.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item2{
+	width:16.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item3{
+	width:25%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item4{
+	width:33.32%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item5{
+	width:41.65%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item6{
+	width:50%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item7{
+	width:58.31%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item8{
+	width:66.64%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item9{
+	width:75%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item10{
+	width:83.3%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item11{
+	width:91.63%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item12{
+	width:100%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+	 /*------header section start------*/
+	 .nav{
+	display:flex;
+	list-style-type:none;
+	margin-left: -15px;
+	margin-bottom:10px;
+}
+.nav a{
+	text-decoration:none;
+	padding:0 15px;
+	color:#000;
+}
+.text-gray{
+	color:gray !important;
+}
+	 
+	 
+	  /*------header section End------*/
+	  
+	   /*------Banner section Start------*/
+	   .image img{
+		   max-width:100%;
+		   border-radius:5px;
+		   height:1050px;
+	   }
+	   .num{
+		   padding:20px 20px;
+		   margin-left:-	19px;
+	   }
+	   .rev{
+	      padding:20px 20px;
+		  color:blue;
+		  
+	   }
+	   .white{
+		   color:#dad6d6;
+	   }
+	    /*------Banner section End------*/
+		
+		    /*------color section start------*/
+		.color{
+			margin-left:20px;
+		}
+		.color1{
+         height:50px;
+		 width:50px;
+		 background-color:black;
+		 border-radius:50%;
+		 
+		}
+		.c2{
+			border:3px solid black;
+			padding:2px;
+			border-radius:50%;
+		}
+		.color2{
+		 height:50px;
+		 width:50px;
+		 background-color:grey;
+		 border-radius:50%;
+		}
+		.mix{
+			display:flex;
+			justify-content:space-between;
+			align-items:center;
+			gap:20px;
+			padding:15px 0px;
+			margin-left:25px;
+			
+		}
+		/*------color section End------*/
+		
+			
+				
+				/*------size section start------*/
+				button{
+					font-size:20px;
+					padding:19px 24px;
+					color:black;
+					border-radius:5px;
+					margin-left:20px;
+					margin-top:-18px;
+					border:none;
+				}
+				.size{
+					padding:20px 20px;
+					margin-bottom:20px;
+					margin-top:-18px;
+				}
+				.chart{
+					padding:20px 20px;
+					margin-bottom:20px;
+					color:blue;
+				    font-size:20px;
+						margin-top:-18px;
+				}
+				.btn_sec1{
+					border-radius:13px;
+					border:2px solid black;
+					background-color:blue;
+					border:none;
+					margin-top:22px;
+					display:flex;
+					justify-content:center;
+					align-items:center;
+					width:92%;
+			
+					
+				}
+				.btn_sec button:last-child{
+					color:grey !important;
+				}
+				.cart{
+					text-decoration:none;
+					display:inline-block;
+					padding:20px 18px;
+					color:white;
+				}
+				.btn_sec .large:hover{
+					color:white;
+					background-color:blue;
+				}
+			
+				
+				/*------size section End------*/
+				
+				/*------description section start------*/
+				.des_sec{
+					margin-top:20px;
+					border-bottom:1px solid gray;
+				}
+				/*------description section End------*/
+				
+				/*------fabric section start------*/
+				li{
+					list-style-position:inside;
+					margin-top:10px;
+					color:gray;
+				}
+				.desp{
+					margin-bottom:10px;
+				}
+				.fabric{
+					margin-top:20px;
+				}
+				/*------fabric section End------*/
+				
+				/*------reward section start------*/
+				.reward{
+					border:1px solid #f9fafc;
+					padding:20px 20px;
+					margin-top:30px;
+					background-color:#f9fafc;
+					border-radius:5px;
+				}	
+				.rewards{
+					margin:20px 0px;
+					font-size:20px;
+					text-align:center;
+				}
+				.get{
+					color:#acb0b2;
+					font-size:20px;
+					text-align:center;
+				}
+				.icon{
+					font-size:25px;
+					margin-left:78px;
+				}
+				/*------reward section End------*/
+					
+				.img_con img{	
+				max-width:100%;
+				height:100%;
+				border-radius:5px;
+				margin-left:0px;
+				
+				}
+				.image_sec{
+		          margin-top:20px;
+				}
+				
+				
+				
+				
+				
+					
+				
+				
