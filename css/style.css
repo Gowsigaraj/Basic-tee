@@ -115,39 +115,60 @@
 	   }
 	   .num{
 		   padding:20px 20px;
-		   margin-left:-	19px;
+		   margin-left:-19px;
 	   }
 	   .rev{
 	      padding:20px 20px;
 		  color:blue;
+		  text-decoration:none;
+		  display:inline-block;
 		  
 	   }
 	   .white{
 		   color:#dad6d6;
 	   }
+	   .basic{
+		   display:flex;
+		   justify-content:space-between;
+	   }
 	    /*------Banner section End------*/
 		
 		    /*------color section start------*/
 		.color{
-			margin-left:20px;
+			margin-left:16px;
 		}
 		.color1{
          height:50px;
 		 width:50px;
 		 background-color:black;
 		 border-radius:50%;
+		 outline:2px solid white;
+			outline-offset:2px;
 		 
 		}
-		.c2{
-			border:3px solid black;
-			padding:2px;
-			border-radius:50%;
+		.color1:hover{
+			outline:2px solid blue;
+			outline-offset:2px;
+			transition: 0.1s;
+			border-radius: 50%;
 		}
+		 
+	
 		.color2{
 		 height:50px;
 		 width:50px;
 		 background-color:grey;
 		 border-radius:50%;
+		  outline:2px solid white;
+			outline-offset:2px;
+		 
+		}
+		
+		.color2:hover{
+			outline:2px solid blue;
+			outline-offset:2px;
+			transition: 0.1s;
+			border-radius: 50%;
 		}
 		.mix{
 			display:flex;
@@ -155,7 +176,7 @@
 			align-items:center;
 			gap:20px;
 			padding:15px 0px;
-			margin-left:25px;
+			margin-left:27px;
 			
 		}
 		/*------color section End------*/
@@ -165,25 +186,34 @@
 				/*------size section start------*/
 				button{
 					font-size:20px;
-					padding:19px 24px;
+					padding:20px 32px;
 					color:black;
 					border-radius:5px;
-					margin-left:20px;
 					margin-top:-18px;
 					border:none;
+					margin-left:10px;
+				}
+				.size_sec{
+					display:flex;
+					justify-content:space-between;
+					margin-bottom:15px;
+				
 				}
 				.size{
-					padding:20px 20px;
 					margin-bottom:20px;
-					margin-top:-18px;
+	
 				}
 				.chart{
-					padding:20px 20px;
-					margin-bottom:20px;
 					color:blue;
+					text-decoration:none;
 				    font-size:20px;
-						margin-top:-18px;
+					display:inline-block;
+			
 				}
+				.btn_sec{
+					margin-left:-10px;
+				}
+				
 				.btn_sec1{
 					border-radius:13px;
 					border:2px solid black;
@@ -193,10 +223,9 @@
 					display:flex;
 					justify-content:center;
 					align-items:center;
-					width:92%;
-			
-					
-				}
+					width:100%;
+				              }
+				
 				.btn_sec button:last-child{
 					color:grey !important;
 				}
@@ -209,6 +238,7 @@
 				.btn_sec .large:hover{
 					color:white;
 					background-color:blue;
+					transition:0.4s;
 				}
 			
 				
@@ -226,12 +256,20 @@
 					list-style-position:inside;
 					margin-top:10px;
 					color:gray;
+					margin-left:-11px;
+				}
+				.des{
+					font-size:15px;
 				}
 				.desp{
 					margin-bottom:10px;
 				}
+				.bt{
+					text-align:justify;
+				}
 				.fabric{
 					margin-top:20px;
+					margin-left:-11px;
 				}
 				/*------fabric section End------*/
 				
@@ -255,7 +293,7 @@
 				}
 				.icon{
 					font-size:25px;
-					margin-left:78px;
+					margin-left:96px;
 				}
 				/*------reward section End------*/
 					
@@ -268,6 +306,12 @@
 				}
 				.image_sec{
 		          margin-top:20px;
+				}
+				.overall{
+					width:1300px;
+					border:2px solid gray;
+					margin:0 auto;
+					
 				}
 				
 				
